@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    display: flex;
+}
+
+.black {
+    background-color: black;
+}
+
+.cell_num {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.cell_alpha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60px;
+}
+
+.chess {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 36px;
+}
